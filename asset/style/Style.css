@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+
+html {
+    scroll-behavior: smooth;
+}
+
+#four {
+    width: 100%;
+    height: 100%;
+    background-image: url('NewChallenge_02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#description {
+    width: 600px;
+    padding-left: 30px;
+}
+
+
+#mainTyper {
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+
+#Home {
+    text-decoration: none;
+    font-family: "Roboto Medium";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+
+#navButtons p {
+    text-decoration: none;
+    font-family: "Roboto Light";
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    color: white;
+
+}
+
+#navButtons p a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 2px white solid;
+    border-radius: 10px;
+    /*border-radius: 10px;*/
+    /*border: 2px white solid;*/
+}
+
+#navButtons p a:hover {
+    border: 2px #d42b02 solid;
+    border-radius: 10px;
+}
+
+
+.typeA {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.typewriter {
+    font-family: sans-serif;
+    color: #fff;
+    padding-left: 30px;
+    display: block;
+}
+
+.typewriter-text {
+    padding-right: 10px;
+    color: #ff5f02;
+    border-right: solid #ff5f02 7px;
+    text-transform: uppercase;
+    animation: cursor 1s ease-in-out infinite;
+    font-weight: bold;
+}
+
+@keyframes cursor {
+    from {
+        border-color: #ff5f02;
+    }
+    to {
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .typewriter {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    .typewriter {
+        font-size: 60px;
+    }
+}
+
+
+#spanAboutSub, #spanAboutMain {
+    color: white;
+}
+
+
+#spanAboutSub {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#spanSkillSub {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#spanAboutMain {
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+}
+
+
+#spanAboutSubAssignment, #spanAboutAssignment {
+    color: white;
+}
+
+#spanAboutContact {
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    color: white;
+}
+
+
+#spanAboutSubAssignment {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#spanAboutAssignment {
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+}
+
+
+#spanSkillMain, #spanSkillSub {
+    color: white;
+}
+
+
+#spanSkillMain {
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+}
+
+
+.progress-bar {
+    background-color: #ff5f02 !important;
+}
+
+.card {
+    margin-right: 5px;
+}
+
+
+#titulo {
+    text-align: center;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+
+.CardPadding {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*.col-sm-2   {*/
+/*    padding: 20px 20px 20px 20px ;*/
+/*    -webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+/*    filter: grayscale(100%);*/
+/*}*/
+
+
+/*.col-sm-2:hover{*/
+/*    -webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+/*    filter: grayscale(0%);*/
+/*    background-color: #323232;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+
+/*.col-lg-4{*/
+/*    padding: 20px 20px 20px 20px ;*/
+/*    -webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+/*    filter: grayscale(100%);*/
+/*}*/
+
+
+/*.col-lg-4:hover{*/
+/*    -webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+/*    filter: grayscale(0%);*/
+/*    background-color: #323232;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+
+.d {
+    padding: 10px 10px 10px 10px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+.d:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    background-color: #323232;
+    border-radius: 50px;
+}
+
+
+/*/////////////////////////////////////////*/
+
+
+.card {
+    /*background-image: url('../Images/Projrcts/POS.jpg');*/
+    /*background-size: cover;*/
+    /*margin-top: 50px;*/
+    /*border: 1px white solid;*/
+    background-color: transparent;
+}
+
+.card h4, a, p {
+    color: #747474;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    /*border-end-start-radius: 50px;*/
+    /*-moz-border-radius-bottomleft: 80px;*/
+    /*-moz-border-radius-bottomright: 20px;*/
+}
+
+.card-body {
+    /*border: 1px white solid;*/
+}
+
+.card:hover {
+    -moz-box-shadow: inset 0 0 10px #99a8a0;
+    -webkit-box-shadow: inset 0 0 10px #99a8a0;
+    box-shadow: 0 0 10px #99a8a0;
+    transform: scale(1.01);
+}
+
+
+.btn {
+    margin-top: 10px;
+    color: white;
+    border: #99a8a0 1px solid;
+}
+
+.btn:hover {
+    background-color: #d85003;
+    color: white;
+}
+
+#myPlaceMap {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+#myPlaceMap:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+
+#myPlaceMap iframe {
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+
+#myPlaceMap iframe:hover {
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+
+#FindMe {
+    margin-top: 50px;
+}
+
+
+#contact {
+    margin-top: 80px;
+}
+
+
+.socialmediaLink {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialmediaLink button {
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+
+#footer {
+    margin-top: 40px;
+    background: #141414;
+    color: whitesmoke;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+model-viewer {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    /*top: 340px;*/
+    /*left: 838px;*/
+
+    background-color: transparent;
+}
+
+#robotWithID {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+@media (max-width: 426px) {
+
+    #four {
+        width: 100%;
+        height: 100%;
+        /*background-image: url('NewChallenge_02.jpg');*/
+        /*background-size: cover;*/
+        /*background-repeat: no-repeat;*/
+    }
+
+    .contactMeMedia {
+        display:none;
+    }
+
+    #mainTyper{
+        position: absolute;
+        top: 280px;
+        left: -10px;
+    }
+
+    #description {
+        width: 300px;
+        padding-left: 20px;
+    }
+
+    .typewriter-text {
+        padding-right: 5px;
+        color: #ff5f02;
+        border-right: solid #ff5f02 7px;
+        text-transform: uppercase;
+        animation: cursor 1s ease-in-out infinite;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    #profileImage{
+        display: none;
+    }
+
+    #FindMe{
+        display: none;
+    }
+
+    #skillImage{
+        display: none;
+    }
+    .project{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+#contactMeSession{
+    display: none;
+}
+    #navButtons p a {
+       display: none;
+    }
+
+}
